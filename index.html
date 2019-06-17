@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>web大作业</title>
+	<style type="text/css">
+	*{
+		margin:0;
+		padding:0;
+	}
+	.contain1{
+		width: 100%;
+		height:67px;
+	}
+	.one{
+		width:1200px;
+        position:relative;
+        margin:0 auto;
+	}
+	.hi{
+		position:absolute;
+		left:526px;
+		top:13px;
+		font-size: 13px;
+		color: rgb(108,106,107);
+	}
+	.qing{
+		position:absolute;
+		top:11px;
+		left:691px;
+		font-size: 15px;
+		color:rgb(90,90,90);
+	}
+	.mian{
+		position:absolute;
+		top:11px;
+		left:764px;
+		font-size: 15px;
+		color:rgb(93,90,92);  
+	}
+	.wo{
+		position:absolute;
+		top:11px;
+		left:867px;
+		
+	}
+	.mai{
+		position:absolute;
+		left:957px;
+		top:11px;
+	}
+	.bang{
+		position:absolute;
+		left:1055px;
+		top:11px;
+		font-size:15px;
+		color:rgb(93,90,92);
+	}
+	.weibo{
+		position:absolute;
+		left:1147px;
+		top:11px;
+		height:18px;
+	}
+	.weixin {
+		position:absolute;
+        left:1177px;
+        top:11px;
+        height:18px;
+	}
+	.contain2{
+		width:100%;
+		height:79px;
+	}
+	.two{
+		width:1200px;
+        position:relative;
+        margin:0 auto;
+	}	
+	.lv{
+		position:absolute;
+		left:0px;
+		top:5px;
+	}
+	.sousuo{
+		position:absolute;
+		left:409px;
+		top:13px;
+		border:1px solid #000;
+		width:541px;
+		height:45px;
+		position:relative;
+	}
+	.sousuo p{
+		position:absolute;
+		left:252px;
+		top:14px;
+		color:rgb(221,221,221);
+		font-size:15px;
+	}
+	.search{
+		position:absolute;
+		left:950px;
+		top:13px;
+		border:1px solid #000;
+		border-left: 0px;
+		width:59px;
+		height:45px;
+	}
+	.search img{
+		position:absolute;
+		left:13px;
+		top:7px;
+	}
+	.gouwu1{
+		position:absolute;
+		left:1163px;
+		top:22px;
+	}
+	.contain3{
+		width:100%;
+        height:50px;
+	}
+	.three{
+        width:1200px;
+        margin:0 auto;
+        position:relative;
+	}
+	.shangpin{
+		width:141px;
+		height:50px;
+		position:absolute;
+		left:13px;
+		top:11px;
+	}
+	.hengxiang{
+		position: absolute;
+		left:141px;
+		top:0px;
+		
+	}
+	.hengxiang ul li{
+		margin-left: 25px;
+		width:90px;
+		height:50px;
+		float:left;
+		display:inline-block;
+		text-align: center;
+		line-height: 50px;
+	}
+	.hengxiang li:hover{	
+		border-bottom:5px green;
+	}
+	.hengxiang a{
+       text-decoration: none;
+       color: rgb(0,0,0);
+	}
+	.contain4{
+		width:100%;
+		height:4px;
+		background-color:rgb(58,167,71);
+	}
+    .contain5{
+    	width:100%;
+    	height:670px;
+    }
+    .five{
+    	width:1918px;
+    	margin:0px auto;
+    }
+    .contain6{
+    	width:100%;
+    	height:61px;
+    }
+    .six{
+    	width:1200px;
+    	margin:0 auto;
+    	position:relative;
+    }
+    .shouye{
+    	position:absolute;
+    	left:28px;
+        top:21px;
+        font-size: 17px;
+    }
+    .fuhao{
+        position:absolute;
+        left:81px;
+        top:23px;
+        font-size: 13px;
+        color: rgb(107,105,105);
+    }
+    .yushi{
+        position:absolute;
+        left:103px;
+        top:24px;
+        font-size: 13px;
+         color: rgb(107,105,105);
+    }
+    .jianshu{
+        position:absolute;
+        right:0px;
+        top:32px;
+        font-size: 12px;
+         color: rgb(107,105,105);
+    }
+    .contain7{
+    	width:100%;
+    	height:135px;
+    }
+    .seven{
+    	width:1200px;
+    	margin:0 auto;
+    }
+    .seven a{
+    	color:rgb(115,115,115);
+    	text-decoration: none;
+    }
+    .seven a:hover{
+    	color:rgb(58,167,71);
+    }
+    .firstone{
+    	position:relative;
+    	width:1200px;
+    	height:45px;
+    	border:1px solid rgb(204,204,204);
+    }
+    .firstone p{
+    	text-align: center;
+    	line-height: 45px;
+       width:100px;
+       height:45px;
+       background-color: rgb(229,229,229);
+       color: rgb(0,0,0);
+    }
+    .baiyu{
+    	position:absolute;
+    	left:141px;
+    	top:15px;
+     }
+    .biyu{
+    	position:absolute;
+    	left:275px;
+    	top:15px; 
+    }
+    .huangyu{
+        position:absolute;
+    	left:402px;
+    	top:15px; 
+    }
+    .hetianyu{
+        position:absolute;
+    	left:525px;
+    	top:15px; 
+    }
+    .feicui{
+        position:absolute;
+    	left:661px;
+    	top:15px; 
+    }
+    .lvsongyu{
+        position:absolute;
+    	left:784px;
+    	top:15px; 
+    }
+    .moyu{
+        position:absolute;
+    	left:920px;
+    	top:15px; 
+    }
+    .secondone{
+    	position:relative;
+        width:1200px;
+    	height:45px;
+    	border-left:1px solid rgb(204,204,204);
+    	border-right:1px solid rgb(204,204,204);
+    }
+    .secondone p{
+    	text-align: center;
+    	line-height: 45px;
+        width:100px;
+       height:45px;
+       background-color: rgb(229,229,229);
+       color: rgb(0,0,0);
+    }
+    .diaozhui{
+       position:absolute;
+    	left:141px;
+    	top:15px; 
+    }
+    .banzhi{
+        position:absolute;
+    	left:275px;
+    	top:15px; 
+    }
+    .shouzhuo{
+        position:absolute;
+    	left:402px;
+    	top:15px; 
+    }
+    .thirdone{
+    	position:relative;
+        width:1200px;
+    	height:45px;
+    	border:1px solid rgb(204,204,204);
+    } 
+    .thirdone p{
+    	text-align: center;
+    	line-height: 45px;
+        width:100px;
+       height:45px;
+       background-color: rgb(229,229,229);
+       color: rgb(0,0,0);
+    }
+    .beijing{
+       position:absolute;
+    	left:141px;
+    	top:15px; 
+    }
+    .anhui{
+        position:absolute;
+    	left:275px;
+    	top:15px; 
+    }
+    .fujian{
+        position:absolute;
+    	left:402px;
+    	top:15px; 
+    }
+    .neimenggu{
+        position:absolute;
+    	left:525px;
+    	top:15px; 
+    }
+    .ningxia{
+        position:absolute;
+    	left:661px;
+    	top:15px; 
+    }
+    .heilongjiang{
+        position:absolute;
+    	left:784px;
+    	top:15px; 
+    }
+    .hebei{
+        position:absolute;
+    	left:920px;
+    	top:15px; 
+    }
+    .gengduo{
+        position:absolute;
+    	left:1143px;
+    	top:15px; 
+    }
+    .contain8{
+    	width:100%;
+    	height:30px;
+    }
+    .contain9{
+    	width:100%;
+    	height:617px;
+    }
+    .nine{
+    	width:1200px;
+    	margin:0 auto;
+        height:617px;	
+    }
+    .nine>div{
+    	float:left;
+    	width:272px;
+    	height:292px;
+    	margin-left: 12px;
+    	margin-top:32px;
+    	border:1px solid #000;
+    }
+    .xuanzhong{
+      position: absolute;bottom:0px;left:0px; width:272px;height:51px;background-color:rgba(0,0,0,0.5); text-align: center;padding-top: 11px;color:rgb(255,255,255);font-size:13px;
+    }
+    .xuanzhong:hover{
+    	width:273px;
+    	height:282px;
+    	background-color:rgba(0,0,0,0.5);
+    	text-align:center;
+    	font-size: 21px;
+    	color:rgb(255,255,255);
+    }
+    .xuanzhong:hover p{
+    	padding-top: 120px;
+    }
+    .contain10{
+    	width:100%;
+    	height:143px;
+    }
+    .contain11{
+    	width:100%;
+    	height:100px;
+    	background-color: rgb(245,245,245);
+    }  
+    .eleven{
+        width:1200px;
+    	margin:0 auto;
+    	position: relative;
+    }
+    .zizhi{
+    	border-right: 1px solid rgb(224,224,224);
+    	float: left;
+    	position: absolute;
+    	left:0px;
+    	top:26px;
+    	width:284px;
+    	height:47px;
+    }
+    .zizhi img{
+    	float:left;
+    	margin-left:35px; 
+    	
+    }
+    .zizhi p{
+    	margin-left:105px;
+    	top:2px;
+    	
+    }
+    .zhifu{
+    	border-right: 1px solid rgb(224,224,224);
+    	position: absolute;
+    	left:284px;
+    	top:26px;
+    	width:300px;
+    	height:47px;
+    }
+    .zhifu img{
+    	float:left;
+    	margin-left:35px; 
+    }
+    .zhifu p{
+    	margin-left:105px;
+    	top:2px;
+    }
+    .baoxian{
+    	border-right: 1px solid rgb(224,224,224);
+    	position: absolute;
+    	left:568px;
+    	top:26px;
+    	width:300px;
+    	height:47px;
+    }
+    .baoxian img{
+    	float:left;
+    	margin-left:35px; 
+    }
+    .baoxian p{
+    	margin-left:105px;
+    	top:2px;
+    }  
+    .shouhou{
+    	position: absolute;
+    	left:852px;
+    	top:26px;
+    	width:300px;
+    	height:47px;
+    }
+    .shouhou img{
+    	float:left;
+    	margin-left:35px; 
+    }
+    .shouhou p{
+    	margin-left:105px;
+    	top:2px;
+    }
+    .contain12{
+    	width:100%;
+    	height:99px;
+    	background-color: rgb(50,50,50);
+    }
+    .twelve{
+    	padding-top: 31px;           
+    	text-align: center;
+    	width:1200px;
+        margin:0 auto ;
+    }
+    .twelve a{
+    	text-decoration:none;
+    	color:rgb(214,214,214);
+    }
+    .twelve p{
+    	color:rgb(214,214,214);
+    }
+    .fix{
+    	width:77px;
+    	height:591px;
+    	background-color: rgb(1,8,7);
+    	text-decoration: none;
+    	position:fixed;
+    	right:0px;
+    	top:200px;
+    	list-style-type: none;
+    }
+    .fix li{
+    	width:67px;
+    	text-align: center;    	
+    	height:117px;
+    	line-height: 117px;
+    	margin-left:5px;
+    	border-bottom: 2px solid rgb(79,84,83);
+    	display: block;
+
+    }
+    .fix img{
+    margin-top: 52px;
+     }
+	</style>
+</head>
+<body>
+	<div class="contain1">
+		<div class="one">
+			<div class="hi">嘿，欢迎来买猜商城！</div>
+			<div class="qing"><a href="#" style="text-decoration: none;color: rgb(93,90,92);"><b>请登录</b></a></div>
+			<div class="mian"><a href="#" style="text-decoration: none;color: rgb(93,90,92);"><b>免费注册</b></a></div>
+			<div class="wo">
+		      <form>
+				<select style="border:0px; color: rgb(108,106,107);font-size:15px;">
+					<option>我的订单</option>
+				</select>
+			</div>
+			<div class="mai">
+				<select style="border:0px; color: rgb(108,106,107);font-size:15px;">
+					<option>我的买猜</option>
+				</select>
+			  </form>
+			</div>
+			<div class="bang">帮助中心</div>
+			<div class="weibo"><img src="image/wb.png"></div>
+			<div class="weixin"><img src="image/wx.png"></div>
+		</div>
+	</div>
+    <div class="contain2">
+    	<div class="two">
+    	    <div class="lv">
+    			<img src="image/logo.png">
+    		</div>
+    		<div class="sousuo">
+    			<p>请输入搜索内容</p>
+    		</div>
+    		<div class="search">
+    			<a href="#"><img src="image/search.png"></a>
+    		</div>
+    		<div class="gouwu1">
+    			<a href="#"><img src="image/cart.png"></a>
+    		</div>
+    	</div>
+    </div>
+    <div class="contain3">
+    	<div class="three">
+    		<div class="shangpin">
+    		<form>
+    			<select style="font-size: 14px; border:0px;font-weight:bold;">
+    				<option>全部商品分类</option>
+    			</select>
+    		</form>
+    		</div>
+    		<div class="hengxiang">
+    			<ul>
+    				<li><a href="#">首页</a></li>
+    				<li><a href="#">名酒</a></li>
+    				<li><a href="#">茗茶</a></li>
+    				<li><a href="#">玉石</a></li>
+    				<li><a href="#">休闲食品</a></li>
+    				<li><a href="#">洗护用品</a></li>
+    				<li><a href="#">土特产</a></li>
+    				<li><a href="#">积分商城</a></li>
+    				<li><a href="#">抽奖游戏</a></li>
+    			</ul>
+    		</div>
+    	</div>
+    </div>
+    <div class="contain4">
+    </div>
+    <div class="contain5">
+    	<div class="five">
+    	<img src="image/banner.png">
+    	</div>
+    </div>
+    <div class="contain6">
+    	<div class="six">
+    		<div class="shouye">
+    			首页
+    		</div>
+    		<div class="fuhao">
+    			>
+    		</div>
+    		<div class="yushi">
+    			玉石
+    		</div>
+    		<div class="jianshu">
+    			共200件相关商品
+    		</div>
+    	</div>
+    </div>
+    <div class="contain7">
+        <div class="seven">
+        	<div class="firstone">
+        		<p>玉石</p>
+        		<div class="baiyu"><a href="#">白玉</a></div>
+        		<div class="biyu"><a href="#">碧玉</a></div>
+        		<div class="huangyu"><a href="#">黄玉</a></div>
+        		<div class="hetianyu"><a href="#">和田玉</a></div>
+        		<div class="feicui"><a href="#">翡翠</a></div>
+        		<div class="lvsongyu"><a href="#">绿松玉</a></div>
+        		<div class="moyu"><a href="#">墨玉</a></div>
+        	</div>
+        	<div class="secondone">
+        		<p>其他</p>
+        		<div class="diaozhui"><a href="#">吊坠</a></div>
+        		<div class="banzhi"><a href="#">扳指</a></div>
+        		<div class="shouzhuo"><a href="#">手镯</a></div>
+        	</div>
+        	<div class="thirdone">
+        		<p>地区</p>
+        		<div class="beijing"><a href="#">北京</a></div>
+        		<div class="anhui"><a href="#">安徽</a></div>
+        		<div class="fujian"><a href="#">福建</a></div>
+        		<div class="neimenggu"><a href="#">内蒙古</a></div>
+        		<div class="ningxia"><a href="#">宁夏</a></div>
+        		<div class="heilongjiang"><a href="#">黑龙江</a></div>
+        		<div class="hebei"><a href="#">河北</a></div>
+        		<div class="gengduo"><a href="#">更多</a></div>
+
+        	</div>
+        </div>
+    </div>
+    <div class="contain8">	
+    </div>
+    <div class="contain9">
+    	<div class="nine">
+    		<div style="position: relative;width:271px;height:292px">
+    		  <img src="image/img1.png">
+    		  <div class="xuanzhong">
+    		   <p>竞猜价 ￥ 399.00 </br>
+    		   翡翠千手观音吊坠</p>
+    		  </div>
+    		</div>
+    		<div style="position: relative;width:271px;height:292px">
+    		<img src="image/img2.png">
+    		<div class="xuanzhong">
+    		   <p>竞猜价 ￥ 1980.00 </br>
+    		   翡翠龙凤吊坠</p>
+    		  </div>
+    		</div>
+    		<div style="position: relative;width:271px;height:292px">
+    		<img src="image/img3.png">
+    		  <div class="xuanzhong">
+    		   <p>竞猜价 ￥ 199.00 </br>
+    		   翡翠花蕊吊坠</p>
+    		  </div>
+    		</div>
+    		<div style="position: relative;width:271px;height:292px">
+    		<img src="image/img4.png">
+    		 <div class="xuanzhong">
+    		   <p>竞猜价 ￥ 199.00 </br>
+    		   翡翠如意吊坠</p>
+    		  </div>
+    		</div>
+    		<div style="position: relative;width:271px;height:292px">
+    		<img src="image/img5.png">
+    		  <div class="xuanzhong">
+    		   <p>竞猜价 ￥ 99.00 </br>
+    		   翡翠婵吊坠</p>
+    		  </div>
+    		</div>
+    		<div style="position: relative;width:271px;height:292px">
+    		<img src="image/img6.png">
+    		  <div class="xuanzhong">
+    		   <p>竞猜价 ￥ 99.00 </br>
+    		   翡翠观音(浅色)吊坠</p>
+    		  </div>
+    		</div>
+    		<div style="position: relative;width:271px;height:292px">
+    		<img src="image/img7.png">
+    		  <div class="xuanzhong">
+    		   <p>竞猜价 ￥ 199.00 </br>
+    		   翡翠平安扣(深色)吊坠</p>
+    		  </div>
+    		</div>
+    		<div style="position: relative;width:271px;height:292px">
+    		<img src="image/img8.png">
+    		  <div class="xuanzhong">
+    		   <p>竞猜价 ￥ 199.00 </br>
+    		   翡翠如意吊坠</p>
+    		  </div>
+            </div>
+    	</div>
+    </div>
+    <div class="contain10">
+    	<div class="ten"></div>
+    </div>
+    <div class="contain11">
+    	<div class="eleven">
+    		<div class="zizhi">
+    			<img src="image/f1.png">
+    			<p>资质认证</p>
+    			<p>服务商100%实名认证</p>
+    		</div>
+    		<div class="zhifu">
+    			<img src="image/f2.png">
+    			<p>支付安全</p>
+    			<p>明码标价支付及信息安全</p>
+
+    		</div>
+    		<div class="baoxian">
+    			<img src="image/f3.png">
+    			<p>保险赔付</p>
+    			<p>为您提供担保赔付</p>
+    		</div>
+    		<div class="shouhou">
+    			<img src="image/f4.png">
+    			<p>售后无忧</p>
+    			<p>服务出问题经理全程跟进</p>
+    		</div>
+    	</div>
+    	
+    </div>
+    <div class="contain12">
+    	<div class="twelve">
+    		<p><a href="#">首页</a> | <a href="#">工商代理</a><a href="#">财务代记账</a> | <a href="#">股权交易与变更</a> | <a href="#">企业贷款</a> | <a href="#">办公室租赁</a> | <a href="#">社保公积金代理</a> | <a href="#">法律服务</a></p></br>
+    		<p>2017-2018 买猜商城有限公司 版权所有</p>
+    	</div>
+    	
+    </div>
+    <div class="contain13">
+    		<ul class="fix">
+    			<li>
+    				<img src="image/cart1.png">
+    			</li>
+    			<li>
+    				<img src="image/qq.png">
+    			</li>
+    			<li>
+    				<img src="image/zuji.png">
+    			</li>
+    			<li>
+    				<img src="image/erweima.png">
+    			</li>
+    			<li style="border-bottom: 0;">
+    				<img src="image/gotop.png">
+    			</li>
+    		</ul>
+    </div>		
+    		
+    
+</body>
+</html>
